@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Header -->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Javascript Tutorial">
+	<meta name="keywords" content="HTML,CSS,JavaScript">
+	<meta name="author" content="Wei Kee Haw">
+	<title>3202 Assignment</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link rel="icon" href="images/icon.png">
+</head>
+<!--Body-->
+<body>
+	<div class="container">
+		<div class="navbar navbar-fixed-left" id="wrapper">
+			<ul class="nav navbar-nav">
+				<li><span class="topBarLogo">Javascript</span></li>
+				<li><a href="home.html"><i class="glyphicon glyphicon-home userSpace"></i>Home</a><hr></li>
+				
+				<li><a href="missionOne.html"><i class="glyphicon glyphicon-info-sign userSpace"></i>Mission One</a></li>
+				<li><a href="missionTwo.html"><i class="glyphicon glyphicon-info-sign userSpace"></i>Mission Two</a></li>
+			</ul>
+		</div>
+		<div class="row mAll">
+			<ol class="breadcrumb">
+				<li><a href="home.html">Home</a></li>
+				<li class="active">Mission One</li>
+			</ol>
+			<div class="underBC">
+				<div class="fixedSize">
+					<h6 class="enlargeS">Mission One<span class="label label-primary">Easy</span></h6>
+				</div>
+				<h5>Please enter your favourite fruit and it will auto generate the table.</h5>
+				<textarea id="userInput" rows="5" cols="30"></textarea><br>
+				<button type="submit" class="btn btn-default btn-sm" id="ms1" onclick="generateTable()">Submit</button><br>
+				<br>
+				<table id="output">
+					<thead>
+						<tr>
+							<td>Number&nbsp;</td>
+							<td>Fruit</td>
+						</tr>
+					</thead>
+					<tbody></tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+<!-- Javascript source file-->
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>	
+	<script src="js/main.js"></script>
+</body>
+</html>
